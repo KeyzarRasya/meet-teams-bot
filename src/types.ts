@@ -90,6 +90,8 @@ export type MeetingParams = {
     extra?: any
     zoom_sdk_id?: string
     zoom_sdk_pwd?: string
+    /** @deprecated Not used; may still arrive in payloads. Do not log or persist. */
+    secret?: string
 }
 
 export type StopRecordParams = {
